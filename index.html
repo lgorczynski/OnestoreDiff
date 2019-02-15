@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../Resources/bootstrap-4.2.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <title>Onestore Diff</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">On<span class="text-danger">e</span>Diff</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Home
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#home">Ostatnio porównywane</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#home">Historia</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        AZ
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#az">Ostatnio porównywane</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#az">Historia</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Strefa
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#strefa">Ostatnio porównywane</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#strefa">Historia</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Homecloud</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="sidenav text-center text-white">
+        <div class="sidenav-element">
+            <a>2019-02-12 16:55</a>
+        </div>
+        <div class="sidenav-element">
+            <a>2019-02-11 11:15</a>
+        </div>
+        <div class="sidenav-element sidenav-element--active">
+            <a>2019-02-10 12:36</a>
+        </div>
+    </div>
+
+    <div class="diff-area">
+        <div class="img-comp-container">
+            <div class="img-comp-img">
+                <img src="az.png">
+            </div>
+            <div class="img-comp-img img-comp-overlay">
+                <img src="home.png">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        initComparisons();
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="../Resources/bootstrap-4.2.1-dist/js/bootstrap.js"></script>
+</body>
+
+</html>

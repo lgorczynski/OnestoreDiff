@@ -1,0 +1,63 @@
+body    {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #9CAFC2;
+}
+
+.sidenav    {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 100rem;
+    width: 140px;
+    background-color: #292E33;
+    margin-top: 56px;
+}
+
+.sidenav-element    {
+    padding: 10px 0px;
+    transition: all 0.2s;
+}
+
+.sidenav-element--active {
+    background-color: #5F6A75;
+}
+
+.sidenav-element:hover  {
+    transition: all 0.2s;
+    background-color: #5F6A75;
+    cursor: pointer;
+}
+
+.diff-area {
+    margin: 0px 5px 0px 140px;
+    max-width: 100vw;
+}
+
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  display: block;
+  vertical-align: middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #92A4B5;
+  opacity: 0.7;
+  border-radius: 50%;
+}
